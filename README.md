@@ -77,11 +77,12 @@ jupyter lab
 ## Team
 | Role | Member | Primary Responsibility |
 |---|---|---|
-| Lead / Data Sourcing | TBD | Dataset selection, Gate 1 proposal |
-| ETL Engineer | TBD | Cleaning pipeline, scripts |
-| Analyst — EDA | TBD | Notebooks 03 |
-| Analyst — Stats | TBD | Notebook 04 |
-| Dashboard / Reporting | TBD | Tableau, final report |
+| Lead / Data Sourcing | Raman Pandey, Aashish Jha | Dataset selection, Gate 1 proposal |
+| ETL Engineer | Raman Pandey, Manthan Ziman | Cleaning pipeline, scripts |
+| Analyst — EDA | Uzair Ahmed Shah | Notebooks 03 |
+| Analyst — Stats | Jagadish Ishwar Patil | Notebook 04 |
+| Dashboard | Manthan Ziman, Uzair Ahmed Shah | Tableau |
+| Reporting | Jagadish Ishwar Patil, Aashish Jha | Final report |
 
 ## Links
 - **GitHub:** _add public repo URL here_
