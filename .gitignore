@@ -1,4 +1,3 @@
-# Python
 __pycache__/
 *.py[cod]
 *$py.class
@@ -7,31 +6,14 @@ venv/
 env/
 .Python
 *.egg-info/
-
-# Jupyter
 .ipynb_checkpoints/
 *.ipynb~
-
-# OS
 .DS_Store
 Thumbs.db
-
-# IDE
 .vscode/
 .idea/
 *.swp
-
-# Kaggle credentials
-kaggle.json
-
-# Data — keep raw + processed tracked, but ignore intermediate junk
 data/raw/*.zip
 data/interim/
-
-# Tableau working files
-*.twb
-*.twbx
 !tableau/screenshots/*
-
-# Reports build artifacts
 reports/_build/
