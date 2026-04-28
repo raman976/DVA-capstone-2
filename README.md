@@ -20,8 +20,6 @@ Analyse a raw Amazon products catalogue (~42K SKUs, 2025) to identify the **pric
   - **No pre-built dashboard or feature-engineered version** — no `brand`, `price_tier`, `discount_pct`, or log-transforms in the source; all engineered columns are produced by our pipeline
   - **Volume rule** — 42K raw rows ≥ 5K minimum; 21 analytical columns ≥ 8 minimum
 
-Place the downloaded CSV at: `data/raw/amazon_products_sales_data_uncleaned.csv` (never edit it).
-
 ## Repository Structure
 ```
 DVA-capstone-2/
@@ -43,7 +41,6 @@ DVA-capstone-2/
 │   └── dashboard_links.md
 ├── reports/
 │   ├── project_report.pdf
-│   └── presentation.pdf
 └── docs/
     └── data_dictionary.md
 ```
