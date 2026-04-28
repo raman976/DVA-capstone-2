@@ -14,17 +14,13 @@ Analyse a raw Amazon products catalogue (~42K SKUs, 2025) to identify the **pric
 - **File:** `amazon_products_sales_data_uncleaned.csv` (36.7 MB, 42,675 × 16)
 - **Cleaned output:** `data/processed/amazon_products_clean.csv` (5,971 × 21, zero NaN — produced by `scripts/etl_pipeline.py`)
 - **Why this dataset (compliance with Capstone 2 input rules):**
-  - **Raw / minimally processed** — file is literally named `_uncleaned`; prices stored as `"$159.00"`, ratings as `"4.6 out of 5 stars"`, review counts as `"6K+"`, coupons as `"Save 15% with coupon"`
+  - **Raw / minimally processed** — prices stored as `"$159.00"`, ratings as `"4.6 out of 5 stars"`, review counts as `"6K+"`, coupons as `"Save 15% with coupon"`
   - **Row-level records** — 42,675 SKU-level rows
   - **Missing values & inconsistencies present** — 27.5% NaN in `current_discounted_price`, 54% NaN in `listed_price`, 92% NaN in `sustainability_badges`, 24,912 duplicate listings across pages
   - **No pre-built dashboard or feature-engineered version** — no `brand`, `price_tier`, `discount_pct`, or log-transforms in the source; all engineered columns are produced by our pipeline
   - **Volume rule** — 42K raw rows ≥ 5K minimum; 21 analytical columns ≥ 8 minimum
 
 Place the downloaded CSV at: `data/raw/amazon_products_sales_data_uncleaned.csv` (never edit it).
-
-### Backup datasets (in case primary is rejected at Gate 1)
-1. *Brazilian E-Commerce Public Dataset by Olist* — Kaggle (raw transactional)
-2. *Online Retail II UCI* — UCI ML Repo (raw invoices, 2009–2011)
 
 ## Repository Structure
 ```
