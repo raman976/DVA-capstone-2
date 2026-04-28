@@ -7,7 +7,6 @@
 ## Problem Statement (Draft)
 Analyse a raw Amazon products catalogue (~42K SKUs, 2025) to identify the **pricing, rating, discount, and category patterns that drive review volume and visibility**, and translate those findings into actionable portfolio decisions for an Amazon seller / category manager.
 
-> Final problem statement to be locked in after Gate 1 mentor approval.
 
 ## Dataset
 - **Source:** [Kaggle — Amazon Products Sales Dataset (42K, 2025) — uncleaned](https://www.kaggle.com/datasets/ikramshah512/amazon-products-sales-dataset-42k-items-2025?select=amazon_products_sales_data_uncleaned.csv)
@@ -38,7 +37,7 @@ DVA-capstone-2/
 │   └── etl_pipeline.py     # 42,675 → 5,971 cleaning + feature engineering
 ├── tableau/
 │   ├── screenshots/        # filled at dashboard publication time
-│   └── dashboard_links.md
+│   
 ├── reports/
 │   ├── project_report.pdf
 └── docs/
@@ -81,9 +80,6 @@ jupyter lab
 | Dashboard | Manthan Ziman, Uzair Ahmed Shah | Tableau |
 | Reporting | Jagadish Ishwar Patil, Aashish Jha | Final report |
 
-## Links
-- **GitHub:** _add public repo URL here_
-- **Tableau Public Dashboard:** _add after publishing_
 
 ## License
 Educational use — Newton School of Technology Capstone 2.
